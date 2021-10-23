@@ -40,7 +40,7 @@ public class QuizManager : MonoBehaviour
     }
     void GenerateQuestion()
     {
-        if (QnA.Count < 0)
+        if (QnA.Count > 0)
         {
             currentQuestion = Random.Range(0, QnA.Count);
 
