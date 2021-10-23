@@ -13,11 +13,22 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
+    public GameObject QuizPanel;
+    public GameObject GgPanel;
+
     public Text QuestionTxt;
 
+    
     private void Start()
     {
+        GgPanel.SetActive(false);
         GenerateQuestion();
+    }
+
+    void GameOver()
+    {
+        QuizPanel.SetActive(false);
+        GgPanel.SetActive(true);
     }
 
     public void Correct()
@@ -49,7 +60,8 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Out of questions"); 
+            Debug.Log("Out of questions");
+            GameOver();
         }
     }
 }
