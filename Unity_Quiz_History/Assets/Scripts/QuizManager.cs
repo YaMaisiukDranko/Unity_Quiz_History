@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
+using UnityEngine.SceneManagement;
 
 
 public class QuizManager : MonoBehaviour
@@ -18,6 +19,10 @@ public class QuizManager : MonoBehaviour
 
     public Text QuestionTxt;
 
+    public void restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     
     private void Start()
     {
