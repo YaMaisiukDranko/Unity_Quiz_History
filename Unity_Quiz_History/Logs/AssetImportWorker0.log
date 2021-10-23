@@ -1095,3 +1095,9 @@ Received Import Request.
   path: Assets/Scripts/QuizManager.cs
   artifactKey: Guid(2158ef94d07d44f5b91066bf6f7ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/QuizManager.cs using Guid(2158ef94d07d44f5b91066bf6f7ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ce11e5c0b9b196791918e4dc3ad175') in 0.002133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 287.781253 seconds.
+  path: Assets/Scripts/QuizManager.cs
+  artifactKey: Guid(2158ef94d07d44f5b91066bf6f7ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuizManager.cs using Guid(2158ef94d07d44f5b91066bf6f7ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fbae7325fe3031e6e4c611c7e548c7') in 0.004055 seconds 
