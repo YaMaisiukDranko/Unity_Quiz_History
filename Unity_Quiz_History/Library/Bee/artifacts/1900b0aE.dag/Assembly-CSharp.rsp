@@ -387,6 +387,8 @@
 "Assets/MaterialUI/Scripts/ToggleTextChanger.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Question.cs"
+"Assets/Scripts/QuestionsAndAnswers.cs"
+"Assets/Scripts/QuizManager.cs"
 "Assets/Scripts/SceneChanger.cs"
 -langversion:8.0
 
