@@ -18,6 +18,10 @@ public class QuizManager : MonoBehaviour
     public GameObject GgPanel;
 
     public Text QuestionTxt;
+    public Text ScoreTxt;
+
+    private int totalQuestions = 0 ;
+    public int score;
 
     public void restart()
     {
@@ -26,6 +30,7 @@ public class QuizManager : MonoBehaviour
     
     private void Start()
     {
+        totalQuestions = QnA.Count;
         GgPanel.SetActive(false);
         GenerateQuestion();
     }
@@ -34,10 +39,20 @@ public class QuizManager : MonoBehaviour
     {
         QuizPanel.SetActive(false);
         GgPanel.SetActive(true);
+        ScoreTxt.text = score + "/" + totalQuestions;
     }
 
     public void Correct()
     {
+        //when you say correct
+        score += 1;
+        QnA.RemoveAt(currentQuestion);
+        GenerateQuestion();
+    }
+
+    public void Wrong()
+    {
+        //when wrong
         QnA.RemoveAt(currentQuestion);
         GenerateQuestion();
     }
