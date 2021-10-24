@@ -61,7 +61,7 @@ public class QuizManager : MonoBehaviour
     
     IEnumerator WaitForNext()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds((float)1.7); 
         GenerateQuestion();
     }
 
