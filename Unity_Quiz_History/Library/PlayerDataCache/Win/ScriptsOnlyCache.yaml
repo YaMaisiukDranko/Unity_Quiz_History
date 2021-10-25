@@ -37,6 +37,9 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -162,6 +165,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5896}
     - Class: 114
       Script: {instanceID: 6242}
+    - Class: 114
+      Script: {instanceID: 6430}
     - Class: 114
       Script: {instanceID: 6800}
     - Class: 114
@@ -1589,5 +1594,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_Quiz_History/Unity_Quiz_History/Builds/HistoryQuiz
-    v0.2.2 x86_32/Unity_Quiz_History.exe
+  playerPath: "/Users/yaroslavmoisiuk/Unity/Unity_Quiz_History/Unity_Quiz_History/Builds/\u0412\u0438\u043A\u0442\u043E\u0440\u0438\u043D\u0430
+    \u0418\u0441\u0442\u043E\u0440\u0438\u044F \u0412\u041E\u0412 x86_32/Unity_Quiz_History.exe"
