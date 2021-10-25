@@ -1589,4 +1589,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_Quiz_History/Unity_Quiz_History/Builds/HistoryQuiz_v0.2.3_x86/Unity_Quiz_History.exe
+  playerPath: /Users/yaroslavmoisiuk/Unity/Unity_Quiz_History/Unity_Quiz_History/Builds/HistoryQuiz
+    v0.2.2 x86_32/Unity_Quiz_History.exe
